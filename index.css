@@ -1,0 +1,27 @@
+ .carousel-item img {
+      height: 800px; 
+      width: 800px;
+      margin: 0 auto; 
+      background-color: #f8f9fa; 
+    }
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: auto;
+}
+
+#hero {
+    height: 850px;
+    background: url(./images/hero.png);
+    background-repeat: no-repeat;
+}
+
+.hero-header{
+    margin-top: 200px !important;
+}
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
